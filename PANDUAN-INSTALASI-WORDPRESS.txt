@@ -1,0 +1,58 @@
+======================================================================
+PANDUAN INSTALASI & EDIT TEMA WORDPRESS RINEWS.ID v2.1 (PORTAL BERITA)
+Kompatibel Diterapkan pada Website WordPress Lama & Semua Plugin Populer
+======================================================================
+
+1. CARA MEMASANG FILE ZIP PADA WEBSITE WORDPRESS LAMA MAUPUN BARU
+   - Login ke Dashboard WordPress Anda (/wp-admin).
+   - Buka menu: Tampilan (Appearance) -> Tema (Themes) -> Tambah Baru (Add New) -> Unggah Tema (Upload Theme).
+   - Pilih file "rinews-portal-wordpress.zip", klik "Pasang Sekarang" (Install Now), lalu klik "Aktifkan" (Activate).
+   - AMAN UNTUK WEBSITE LAMA: Mengaktifkan tema ini TIDAK akan menghapus berita lama, halaman lama, gambar media, komentar, maupun data plugin yang sudah berjalan.
+   - Jika tema sebelumnya sudah pernah terpasang, WordPress akan otomatis menawarkan tombol "Ganti tema aktif dengan versi unggahan" — silakan klik untuk memperbarui ke v2.1.
+
+2. KOMPATIBILITAS PENUH DENGAN SEMUA PLUGIN WORDPRESS
+   - Page Builder (Elementor, WPBakery, Beaver Builder, Divi, Gutenberg Block):
+     * Mendukung align-wide, wp-block-styles, responsive-embeds, serta tersedia Template Halaman "RINEWS Full-Width (Elementor / Page Builder / Toko)".
+   - Plugin SEO (Yoast SEO, Rank Math, All in One SEO, SEOPress):
+     * Tema otomatis mendeteksi jika plugin SEO aktif agar meta tag, OpenGraph, dan Schema.org tidak bentrok atau ganda.
+   - Classic Widgets & Block Widgets:
+     * Mendukung tampilan Widget Klasik maupun Gutenberg Block Widget secara penuh (16 Area Widget + 9 Widget Kustom RINEWS).
+   - WooCommerce, Contact Form 7, WPForms, LiteSpeed Cache, WP Rocket:
+     * Terdaftar dukungan resmi WooCommerce beserta Zoom/Lightbox/Slider galeri produk dan shortcode responsif.
+
+3. PENGATURAN JAM TAYANG SENDIRI (HARI, TANGGAL, TAHUN & JAM) & SEMUA WIDGET
+   - Jam Tayang Portal:
+     * Buka: Tampilan -> Widget & Jam Tayang.
+     * Pilih Mode "Otomatis (WIB)" atau "Atur Sendiri (Manual)" untuk menentukan Hari, Tanggal, Bulan, Tahun, dan Jam Tayang pada header portal & evaluasi jadwal widget.
+   - Pengaturan Jadwal Per Widget:
+     * Buka: Tampilan -> Widget.
+     * Setiap Widget RINEWS kini dilengkapi kotak "Pengaturan Jam Tayang Widget":
+       - Sembunyikan widget sementara.
+       - Aktifkan Jadwal Tayang Khusus: pilih Hari Tayang (Senin - Minggu), Tanggal/Tahun Mulai & Selesai, serta Jam Mulai - Jam Selesai (WIB).
+   - Shortcode Siap Pakai (untuk Elementor, Gutenberg, & halaman website lama):
+     * [rinews_slide_berita]  (Slide Utama Hanya Judul + 6 Thumbnail Bawah Hanya Foto)
+     * [rinews_berita_viral]
+     * [rinews_kategori_berita title="NASIONAL" count="4" layout="horizontal"]
+     * [rinews_live_streaming] (Pemutar Portrait 9:16 + TikTok Live + Izin Admin)
+     * [rinews_tiktok_feed]
+     * [rinews_youtube_feed]
+     * [rinews_jam_tayang]
+
+4. SETUP OTOMATIS KATEGORI, SUBMENU, HALAMAN & WIDGET (1 KLIK)
+   - Buka menu: Tampilan -> Setup RINEWS.ID.
+   - Klik tombol "Jalankan Setup Portal RINEWS.ID Sekarang" (hanya menambah kategori/halaman yang belum ada, aman bagi pos lama).
+   - Struktur Lengkap:
+     * INTERNASIONAL (United State, Eropa, Asia, Timur Tengah)
+     * NASIONAL (Pemerintahan, Politik, Hukum, Istana)
+     * REGIONAL (Aceh, Banten, Jawa Barat, Jawa Tengah, Jawa Timur, Bali, Sumatera, Kalimantan, Sulawesi, Nusa Tenggara, Papua)
+     * BUSER BERITA (TNI/Polri, KPK, Hukum/Politik)
+     * OLAH RAGA, ILMU PENGETAHUAN, BUDAYA, HIBURAN, BISNIS, REDAKSI, PRIVASI POLICY.
+
+5. TAMPILAN BERSIH "SLIDE BERITA BARU" & LIVE STREAMING PORTRAIT 9:16
+   - Slide Berita Baru utama menampilkan JUDUL SAJA di atas foto berita.
+   - 6 kotak slide di bawahnya menampilkan FOTO SAJA tanpa tulisan/label agar bersih dan elegan.
+   - Di Footer tengah atas Copyright tersedia "LIVE Streaming" Portrait 9:16 yang dapat diajukan oleh umum dengan izin & verifikasi Admin untuk menayangkan TikTok Live penyiar terkait.
+
+6. FILE GAMBAR & KONFIGURASI LENGKAP
+   - Semua gambar berita, iklan, dan tangkapan layar tema tersimpan rapi di folder: /assets/images/ di dalam ZIP ini.
+======================================================================
